@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: page_quiz 0.9.2\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2016-08-19T13:26:35+00:00\n"
+"PO-Revision-Date: 2016-08-19T13:26:35+00:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/page_quiz/blocks/page_quiz/templates/bootstrap
+msgctxt "TemplateFileName"
+msgid "Bootstrap"
+msgstr ""
+
+#: packages/page_quiz/controller.php:16
+#: packages/page_quiz/blocks/page_quiz/controller.php:24
+#: packages/page_quiz/blocks/page_quiz/controller.php:29
+msgid "Page Quiz"
+msgstr ""
+
+#: packages/page_quiz/controller.php:21
+msgid "Add a simply quiz to your page"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:45
+msgid "Title / Question"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:50
+msgid "Add Entry"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:61
+#: packages/page_quiz/blocks/page_quiz/edit.php:96
+msgid "Answer"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:68
+msgid "Is Correct"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:69
+#: packages/page_quiz/blocks/page_quiz/edit.php:103
+msgid "Yes"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:69
+#: packages/page_quiz/blocks/page_quiz/edit.php:102
+msgid "No"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:74
+#: packages/page_quiz/blocks/page_quiz/edit.php:107
+msgid "Feedback"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:83
+#: packages/page_quiz/blocks/page_quiz/edit.php:113
+msgid "Delete Entry"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:100
+msgid "Is Correct?"
+msgstr ""
+
+#: packages/page_quiz/blocks/page_quiz/edit.php:134
+msgid "Are you sure?"
+msgstr ""

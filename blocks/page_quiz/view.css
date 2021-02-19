@@ -1,0 +1,73 @@
+.ccm-page-quiz {
+    text-align: center;
+}
+
+.ccm-page-quiz .answers-text, .ccm-page-quiz .answers-feedback {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.ccm-page-quiz .title {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+
+/** THE LIST OF ANSWERS **/
+.ccm-page-quiz .answers-text {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.ccm-page-quiz .answers-text .answer {
+    transition: opacity 250ms ease 0s;
+}
+
+.ccm-page-quiz .answers-text .answer.inactive {
+    opacity: 0.3;
+}
+
+
+/** BUTTONS **/
+.ccm-page-quiz .answers-buttons .answer {
+    outline: 0;
+    text-decoration: none;
+    font-size: 1.875vw;
+    height: 6.09375vw;
+    margin: 1.25vw;
+    padding-top: 1.5625vw;
+    width: 6.09375vw;
+    background-color: #999;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.ccm-page-quiz .answers-buttons .answer.incorrect {
+    background-color: #f15d22;
+}
+
+.ccm-page-quiz .answers-buttons .answer.correct {
+    background-color: #73c48f;
+}
+
+
+/** TEXT YOU SEE WHEN YOU CLICK ON A BUTTON **/
+.ccm-page-quiz .answers-feedback {
+    padding: 0.25em;
+    min-height: 70px;
+}
+
+.ccm-page-quiz .answers-feedback .answer {
+    transition: opacity 250ms ease 0s;
+    opacity: 0;
+    position: absolute;
+    left: 99999px;
+}
+
+.ccm-page-quiz .answers-feedback .answer.active {
+    opacity: 1;
+    position: static;
+    left: auto;
+}
